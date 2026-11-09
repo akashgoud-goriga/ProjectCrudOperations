@@ -60,8 +60,6 @@ To run this project on your computer:
 3. Open `index.html` in your browser.
 4. Start adding and managing users!
 
-## AUTHOR
-
-    **AkashGoriga**
+## AkashGoriga
 
 **If you like this project, feel free to give it a ⭐!**
