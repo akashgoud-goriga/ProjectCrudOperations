@@ -61,7 +61,7 @@ To run this project on your computer:
 4. Start adding and managing users!
 
 ## AUTHOR
-    <b>AkashGoriga</b>
----
+
+    **AkashGoriga**
 
 **If you like this project, feel free to give it a ⭐!**
