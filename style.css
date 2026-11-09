@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+#navThings{
+    display: flex;
+    gap: 100px;
+    font-size: 18px;
+}
+#Createbtn{
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color:darkgreen;
+    
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+#userphoto{
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.maincontainer{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.userbox{
+    border: 1px solid black;
+    height: 55%;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#name{
+    font-size: 25px;
+    font-weight: 700;
+}
+.userbtns{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.userbtns button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+#upbtn{
+    background-color: goldenrod;
+
+}
+#debtn{
+    background-color: darkred;
+}
+.formdiv{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+}
+.formdiv form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50%;
+    gap: 20px;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 10px;
+    
+    
+    
+}
+.formdiv form input{
+    height: 10%;
+    width: 70%;
+    border-radius: 10px;
+    align-self: center;
+    /* border: 1px solid black; */
+    outline: none;
+    border: none;
+}
+#uscrbtn{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkolivegreen;
+    color: white;
+    align-self: center;
+}
+.formdiv h1{
+    font-size: 50px;
+}
+#close{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: white;
+    font-size: 30px;
+}
